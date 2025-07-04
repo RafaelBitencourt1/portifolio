@@ -78,7 +78,7 @@ const About: React.FC = () => {
             </div>
           </motion.div>
 
-          {/* Bio & info */}
+  
           <div>
             <motion.h3
               className="text-3xl font-bold mb-4 text-slate-900 dark:text-white"
@@ -89,13 +89,11 @@ const About: React.FC = () => {
             </motion.h3>
 
             <motion.p
-  className="text-lg text-slate-700 dark:text-slate-300 mb-6 leading-relaxed text-justify"
+              className="text-lg text-slate-700 dark:text-slate-300 mb-6 leading-relaxed text-justify"
               variants={variants}
               transition={{ duration: 0.6 }}
             >
-              Sou desenvolvedor web e mobile, com foco em React, TypeScript, Node.js e Kotlin. Tem experiência em criar aplicações modernas e funcionais, com domínio em Firebase, PostgreSQL e integração com APIs. É criador de projetos como DespaFront, DespaCursos e Despa Agenda, sempre buscando unir design limpo com soluções eficientes.
-
-
+Sou desenvolvedor web e mobile com forte atuação no ecossistema JavaScript e Kotlin. Apaixonado por tecnologia, e acumulo experiência no desenvolvimento de aplicações modernas, intuitivas e funcionais. Especialista em frontend com React e TypeScript, Rafael também trabalha com back-end utilizando Node.js, Prisma e PostgreSQL
             </motion.p>
 
 
